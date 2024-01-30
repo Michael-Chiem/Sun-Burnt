@@ -1,31 +1,67 @@
-body {
-    font-family: 'Arial', sans-serif;
-}
-
-header {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-
-#search-section {
-    margin: 20px;
-}
-
-#search-form {
+.container {
+    margin: 10px auto;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: top;
+    width: 100%;
 }
 
-label {
-    margin-right: 10px;
+.display-blocks {
+    width: 100%;
 }
 
-#current-weather,
-#forecast,
-#search-history {
-    margin: 20px;
+.city-display {
+    border: 1px solid black;
 }
 
-/* Add more styles as needed for the layout and design */
+.city-display-content, .current-stats-content {
+    margin: 15px;
+} 
+
+.form-control {
+    width: 100%;
+    margin: 10px 0 15px;
+}
+
+.forecast-display {
+    border: 1px solid transparent;
+}
+
+.forecast-daily-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.box {
+    background-color: navy;
+    height: 200px;
+    width: 19%;
+    border: 3px solid navy;
+    display: block;
+}
+
+.box-contents {
+    color: white;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+#uv-style {
+    color: white;
+    margin: 2px 5px;
+    border-radius: 3px;
+}
+
+.uv-favorable {
+    background-color: green;
+}
+
+.uv-moderate {
+    background-color: orange;
+}
+
+.uv-severe {
+    background-color: red;
+}
