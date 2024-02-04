@@ -3,20 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./assets/style.css"></link> -->
+    <link rel="stylesheet" href="./assets/style.css"></link>
     <title>Tempature Rising</title>
 </head>
-<style>
-    body {
-        background-image: url("/assets/sun.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin: 0;
-        padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-</style>
 <body>
     
     <h1>Welcome To Weather API Page</h1>
@@ -27,23 +16,13 @@
         <h2>Select your city</h2>
         <input id="city"></input>
         <button id="btn">Search Now</button>
-        <h2>Previous Searches</h2>
-
+        <h2>Previous searched</h2>
     <div id="cities"></div>
 
     </div>
 
     <div style="width: 70%">
     <div id="current"></div>
-    <style>
-        .future {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            background-color: azure;
-            width: 100vw;
-        }
-    </style>
     <div id="future" class="future"></div>
     </div>
 </div>

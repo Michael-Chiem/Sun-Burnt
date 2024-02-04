@@ -49,7 +49,7 @@ function featchWeather(city) {
                 <p>Temperature: ${data.list[i].main.temp}°C</p>
                 <p>Humidity: ${data.list[i].main.humidity}%</p>
                 <p>Wind Speed: ${data.list[i].wind.speed} MPH</p>
-                
+            
                 `
             }
     })
