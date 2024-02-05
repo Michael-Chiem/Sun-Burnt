@@ -23,5 +23,5 @@ Here are the steps I followed to create the API dashboard:
 
 Below are examples illustrating how the program operates:
 
-![Alt Text]('./assets/images/demo.gif')
+![Alt Text](assets/images/demo.gif)
 
