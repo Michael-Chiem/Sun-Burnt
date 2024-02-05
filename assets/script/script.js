@@ -10,7 +10,7 @@ cities.forEach(city => {
 document.getElementById('cities').onclick = function (e) {
     var city = e.target.innerHTML;
     document.getElementById('future').innerHTML = '';
-    featchWeather(city);
+    fetchWeather(city);
 }
 
 document.getElementById('btn').onclick = function () {
@@ -18,10 +18,10 @@ document.getElementById('btn').onclick = function () {
     cities.push(city);
     document.getElementById('future').innerHTML = '';
     localStorage.setItem('cities', JSON.stringify(cities));
-    featchWeather(city);
+    fetchWeather(city);
 }
 
-function featchWeather(city) {
+function fetchWeather(city) {
     var url =`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}`
 
     fetch(url)
